@@ -1,0 +1,149 @@
+doctype html
+head
+  meta(http-equiv='Content-Type' content='text/html; charset=UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='discrption' content='Fabon Personal Portfolio Template')
+  meta(name='keyword' content='creative, business, freelancer, agency, responsive, corporate, interior, minimal, modern, personal, portfolio, simple')
+  meta(name='author' content='Themescare')
+  // Title
+  title FIF Portal SSO Application
+  // Favicon
+  link(rel='icon' type='image/png' sizes='32x32' href='assets/img/favicons/favicon-32x32.png')
+  // Bootstrap css
+  link(rel='stylesheet' href='assets/css/bootstrap.css')
+  // Font Awesome css
+  link(rel='stylesheet' href='assets/css/font-awesome.min.css')
+  // Animatedheadline css
+  link(rel='stylesheet' href='assets/css/jquery.animatedheadline.css')
+  // Magnific css
+  link(rel='stylesheet' href='assets/css/magnific-popup.css')
+  // Owl-Carousel css
+  link(rel='stylesheet' href='assets/css/owl.carousel.min.css')
+  link(rel='stylesheet' href='assets/css/owl.theme.default.min.css')
+  // Site Main Style css
+  link(rel='stylesheet' href='assets/css/style.css')
+  // Responsive css
+  link(rel='stylesheet' href='assets/css/responsive.css')
+  style.
+    #size {height: 100px; width: 100px;}
+    #sizefont {padding: 40px 0px 0px 10px;}
+// Preloader Start
+#preloader
+  .spinner
+    .spin1
+    .spin2
+    .spin3
+    .spin4
+    .spin5
+// Preloader End
+// Navbar Start
+nav.navbar.navbar-expand-lg.navbar-dark
+  .container
+    // LOGO
+    a(href='/')(style='padding-bottom: 15px;')
+      img(src='assets/img/a.jpg' alt='fifgroup' width='230' height='150' srcset='')
+    button.navbar-toggler.collapsed(type='button' data-toggle='collapse' data-target='#navbarCollapse' aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarCollapse.navbar-collapse.collapse
+      ul.navbar-nav.ml-auto
+        li.nav-item(style='height: 60px; width: 60px;')
+          img(src='assets/img/account.svg' alt='')
+        li.nav-item(style='padding-top: 10px;')
+          font(color='#000000') Username : #{nameUser}
+        li.nav-item(style='padding-top: 10px;')
+          font(color='#000000') Role : #{roleUser}
+        li.nav-item(style='padding-top: 10px;')
+          a(href='/logout')
+            font(color='#000000') Logout
+// Navbar End
+// Portfolio Section Start
+section.fabon-work-area.section_t_100.section_b_70(data-scroll-index='3')
+  .container
+    hr
+    br
+    font(color='#000000')
+      h3 APPS
+      br
+    .row
+      .col
+        .portfolio-filter.text-center
+          ul
+            li.current(data-filter='*') All
+            li(data-filter='.design') Core
+            li(data-filter='.application') Office
+            li(data-filter='.development') Service
+    br
+    .row.portfolio-items
+      // Portfolio Item
+      .col-lg-3.col-md-4.item.application
+        .row.col-lg-12(style='padding-left: 15px;')
+          #size.item-content
+            a(href='assets/img/msword.svg' target='_blank')
+              img(src='assets/img/msword.svg' alt='')
+              //- .item-img-overlay
+          p#sizefont MS Word
+      // Portfolio Item
+      .col-lg-3.col-md-4.item.design
+        .row(style='padding-left: 15px;')
+          #size.item-content
+            a(href='assets/img/excel.svg' target='_blank')
+              img(src='assets/img/excel.svg' alt='')
+              //- .item-img-overlay
+          p#sizefont MS Excel
+      // Portfolio Item
+      .col-lg-3.col-md-4.item.development
+        .row(style='padding-left: 15px;')
+          #size.item-content
+            a(href='assets/img/sharepoint.svg' target='_blank')
+              img(src='assets/img/sharepoint.svg' alt='')
+              //- .item-img-overlay
+          p#sizefont Sharepoint
+      // Portfolio Item
+      .col-lg-3.col-md-4.item.design.development
+        .row(style='padding-left: 15px;')
+          #size.item-content
+            a(href='assets/img/teams.svg' target='_blank')
+              img(src='assets/img/teams.svg' alt='')
+              //- .item-img-overlay
+          p#sizefont MS Teams
+      // Portfolio Item
+      .col-lg-3.col-md-4.item.development.application
+        .row(style='padding-left: 15px;')
+          #size.item-content
+            a(href='assets/img/powerpoint.svg' target='_blank')
+              img(src='assets/img/powerpoint.svg' alt='')
+              //- .item-img-overlay
+          p#sizefont Power Point
+      // Portfolio Item
+      .col-lg-3.col-md-4.item.application.development
+        .row(style='padding-left: 15px;')
+          #size.item-content
+            a(href='assets/img/outlook.svg' target='_blank')
+              img(src='assets/img/outlook.svg' alt='')
+              //- .item-img-overlay
+          p#sizefont Outlook
+// Portfolio Section End
+// Jquery js
+script(src='assets/js/jquery-3.0.0.min.js')
+// Bootstrap js
+script(src='assets/js/bootstrap.min.js')
+// ScrollIt js
+script(src='assets/js/scrollIt.min.js')
+// Owl-Carousel js
+script(src='assets/js/owl.carousel.min.js')
+// Ripples js
+script(src='assets/js/jquery.ripples-min.js')
+// Barfiller js
+script(src='assets/js/jquery.barfiller.js')
+// Animatedheadline js
+script(src='assets/js/jquery.animatedheadline.min.js')
+// Isotop Js
+script(src='assets/js/isotope.pkgd.min.js')
+script(src='assets/js/custom-isotop.js')
+// Magnific js
+script(src='assets/js/jquery.magnific-popup.min.js')
+// Init js
+script(src='assets/js/init.js')
+// Main js
+script(src='assets/js/main.js')

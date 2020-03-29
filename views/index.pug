@@ -1,0 +1,51 @@
+doctype html
+title Portal SSO
+meta(charset='UTF-8')
+meta(name='viewport' content='width=device-width, initial-scale=1')
+link(rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css')
+link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Karma')
+style.
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+  .w3-bar-block .w3-bar-item {padding:20px}
+// Top menu
+.w3-top
+  .w3-white.w3-xlarge(style='max-width:1200px;margin:auto')
+    .w3-center.w3-padding-16
+      img(src='https://sera.astra.co.id/uploads/contents/1500017831_U846WX1nRM.png' alt='Sandwich' style='width:20%')
+      
+// !PAGE CONTENT!
+.w3-main.w3-content.w3-padding(style='max-width:900px;margin-top:120px')
+  // First Photo Grid
+  #food.w3-row-padding.w3-padding-16.w3-center
+    .w3-third
+      a(href='http://localhost:3030/aplikasiinsta' target="_blank")
+        img(src='https://png.pngtree.com/element_our/sm/20180518/sm_5aff6089d3e02.png' alt='Sandwich' style='width:50%')
+        hr
+        h2 Aplikasi Insta
+      p Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.
+    .w3-third
+      a(href='http://localhost:3020/aplikasifoto' target="_blank")
+        img(src='https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png' alt='Steak' style='width:50%')
+        hr
+        h2 Aplikasi Android
+      p
+        | Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+    .w3-third
+      a(href='http://localhost:3010/aplikasimusic' target="_blank")
+        img(src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/ITunes_12.2_logo.png/768px-ITunes_12.2_logo.png' alt='Pasta and Wine' style='width:50%')
+        hr
+        h2 Aplikasi Music
+      p Lorem ipsum text praesent tincidunt ipsum lipsum.
+.w3-bottom
+  .w3-white.w3-xlarge(style='max-width:1200px;margin:auto')
+    .w3-center.w3-padding-16
+      p Welcome #{nameUser}
+      a(href='/logout') Logout
+script.
+  // Script to open and close sidebar
+  function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  }
+  function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  }
